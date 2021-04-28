@@ -1,0 +1,13 @@
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; All Categories</h1>
+  </header>
+
+
+  <ul class="list-group">
+    <%@categories.each do |category|%>
+    <li class='list-group-item'><%= category.name %></li>
+    <%end%>
+    
+  </ul>
