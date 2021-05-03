@@ -43,10 +43,15 @@ RSpec.describe User, type: :model do
         authenticated_user = User.authenticate_with_credentials("bob@bob", "Abcdef")
         expect(authenticated_user).to eq(user)
       end
-      it "checks the login and returns the authenticated user" do
+      it "checks the login and returns nill if the login does not validate" do
         user = User.create(name: "bob", :last_name => "bob", :email => "bob@bob", :password => "Abcdef", :password_confirmation => "Abcdef")
         authenticated_user = User.authenticate_with_credentials("beb@bass", "Abcdef")
         expect(authenticated_user).to eq(nil)
+      end
+      it "checks the login and returns authenticated user regardless of trailing spaces or capitaliztion" do
+        user = User.create(name: "bob", :last_name => "bob", :email => "bob@bob", :password => "Abcdef", :password_confirmation => "Abcdef")
+        authenticated_user = User.authenticate_with_credentials("boB@bob ", "Abcdef")
+        expect(authenticated_user).to eq(user)
       end
 
     end
