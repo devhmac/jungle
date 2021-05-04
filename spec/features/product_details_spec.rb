@@ -24,5 +24,6 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
    first('.product > header').click
    expect(page).to have_css 'section.products-show'
     save_screenshot 'product_details_test.png'
+    
   end
 end
