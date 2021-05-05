@@ -19,9 +19,19 @@
 ### Store features
 * Dynamically added Sold-out badges on out of stock products
 
-* Developed an Order Summary page
+* Empty Cart Indicator
 
-## Project
+* Developed an Order Summary page
+* Stripe payment integration
+
+## <ins>Project</ins>
+![Screen Shot 2021-05-05 at 2 26 53 PM](https://user-images.githubusercontent.com/52307383/117204950-3335a300-adae-11eb-941c-a2199fd802e9.png)
+
+
+![Screen Shot 2021-05-05 at 2 36 47 PM](https://user-images.githubusercontent.com/52307383/117205825-5b71d180-adaf-11eb-8db5-9dd1556df680.png)
+| *Login*      | *Register*      |
+|------------|-------------|
+| <img src=https://user-images.githubusercontent.com/52307383/117205592-0fbf2800-adaf-11eb-8aa8-aec63e1b29e0.png width="300">| <img src=https://user-images.githubusercontent.com/52307383/117205649-236a8e80-adaf-11eb-9776-e277488c5bdc.png width="300"> |
 
 
 
