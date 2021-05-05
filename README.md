@@ -1,6 +1,25 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+## A Full-Stack, RESTful, mini e-commerce application built on Ruby/Rails 4.2
+
+* The Jungle project, attempts to simulate real-world project experience by developing features and functionality on top of a pre-exising codebase.
+
+## <ins>Added Features</ins>
+
+### User Authentication
+* Full User Authenticaion system, utilizing bcrypt for hashed passwords.
+
+### Admin Controls
+* Implemented Admin authentication requirement for all Admin actions.
+
+* Admins have ability to view and create new categories.
+
+* Admins can create new products assigned to newly created categories.
+
+### Store features
+* Dynamically added Sold-out badges on out of stock products
+
+## <ins>local installation</ins>
 
 ## Additional Steps for Apple M1 Machines
 
