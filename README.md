@@ -7,7 +7,7 @@
 ## <ins>Added Features</ins>
 
 ### User Authentication
-* Full User Authenticaion system, utilizing bcrypt for hashed passwords.
+* Full User Registration & Authenticaion system, utilizing bcrypt for hashed passwords.
 
 ### Admin Controls
 * Implemented Admin authentication requirement for all Admin actions.
@@ -18,6 +18,8 @@
 
 ### Store features
 * Dynamically added Sold-out badges on out of stock products
+
+* Developed an Order Summary page
 
 ## <ins>local installation</ins>
 
